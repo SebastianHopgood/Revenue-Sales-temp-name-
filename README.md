@@ -13,10 +13,11 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 * Seller Strategy: Which sellers are the top performers and which regions have the highest concentration of active customers?
 
 ## 🛠️ Tools Used
-* Excel: Used for initial data inspection, metadata documentation, and as a bridge to import raw CSV files into the SQL environment.
-* SQL (BigQuery): The backbone of the project. Used for DDL, DML, DQL, data cleaning, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema.
-* Power BI: Used to build an interactive, multi-page dashboard. Leveraged DAX (Data Analysis Expressions) to create custom measures for KPIs, time intelligence, and visualizations.
-* GitHub: Utilized for project documentation, version control of SQL scripts, and hosting the portfolio.
+* Excel: Used for initial data inspection, metadata documentation, and as a bridge to import raw CSV files into the SQL environment
+* SQL (BigQuery): The backbone of the project. Used for DDL, DML, DQL, data cleaning, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
+* Power BI: Used to build an interactive, multi-page dashboard. Leveraged DAX (Data Analysis Expressions) to create custom measures for KPIs, time intelligence, and visualizations
+* GitHub/Git: Utilized for project documentation, version control of code scripts, and hosting the portfolio
+* Vs Code: Joined with Git to control project codes files
 
 ## 🔄 Project Workflow
 - Explain what i did and the process including the sections below: (include process Ask, Prepare, Process, Analyze, Share, Act)
