@@ -40,7 +40,7 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 ### Dataset Metadata and Structure:
 * dataset_metadata: Files stored for company and analysts to understand the data.
 
-### 📊  Dashboard Preview
+### Dashboard Preview
 * Olist_360_Dashboard: The source file for the interactive Power BI report.
 * Dashboard_Static_Report: A non-interactive version for quick viewing with no interactive slicers, buttons, or parameters applied.
 
