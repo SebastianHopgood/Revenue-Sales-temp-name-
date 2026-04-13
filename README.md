@@ -8,8 +8,8 @@ The goal of the project is to simulate a real business scenario by developing an
 ## 🎯 Objectives
 The primary goal is to provide a 360-degree view of the Olist Store to measure preformance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy Stakeholders requested to know:
 * Sales Performance: Which product categories drive the most revenue and how is sales volumne trending over time?
-* Logistics & Delivery: What is the average delivery time across different Brazilian states and where are the most significant shipping days?
-* Customer Experience: How does shipping preformance (late vs on-time) directly impact customer review scores?
+* Logistics & Delivery: What is the average delivery time across different Brazilian states and where are the most significant shipping delays?
+* Customer Experience: How does shipping performance (late vs on-time) directly impact customer review scores?
 * Seller Strategy: Which sellers are the top performers and which regions have the highest concentration of active customers?
 
 ## 🛠️ Tools Used
