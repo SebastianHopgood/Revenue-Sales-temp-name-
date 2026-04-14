@@ -21,7 +21,8 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 
 ## 🔄 Project Workflow
 
-### ASK
+### ASK Phase
+
 * **Define the Project Goal:** The primary goal is to provide a 360-degree view of the Olist Store to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
 
 * **Define the Stakeholders:** Olist CEO and Logistics Department
@@ -35,6 +36,10 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 
 * **Develop A SOW (Scope of Work)**:
 * SOW is created in order to give stakeholders a clear outline of the project which includes: project overview, scope, out-of-scope, project deliverables and files, key project milestones, and an estimated timeline for each milestone and project completion. Link to SOW PDF: "add link"
+
+### PERPARE Phase
+
+
 
 ## 💡 Key Insights & Recommnedataions 
 - Bullet points on what key insights and what actions are best to take for the company
