@@ -3,7 +3,7 @@
 ## 📋 Overview
 The project analyzes a real-world Brazilian ecommerce public dataset of orders made at the Olist Store, containing approximately 100,000 orders between 2016 and 2018. The dataset is structured across 9 relational tables covering customers, orders, locations, products, categories, sellers, and reviews, enabling a full view of the end-to-end e-commerce process from purchase to delivery and customer feedback
 
-The goal of the project is to simulate a real business scenario by developing an interactive dashboard for stakeholders to visualize business answers along with an executive summary on how to improve the business. To support this, raw CSV data was imported and integrated into SQL using Excel, BigQuery datasets were created and changed within SQL using DML and DDL, then cleaned and transformed using SQL processes, and multiple tables were joined together to create a star schema for analysis. The cleaned datasets were connected to Power BI, where an interactive dashboard was built and used to help develop the perfect executive summary
+The goal of the project is to simulate a real business scenario by developing an interactive dashboard for stakeholders to visualize business answers along with an executive summary on how to improve the business. To support this, raw CSV data was imported and integrated into SQL using Excel, BigQuery datasets were created and changed within SQL using DML and DDL, then cleaned and transformed using SQL processes, and multiple tables were joined together to create a star schema for analysis. The cleaned datasets were connected to Power BI, where an interactive dashboard was built and used to help develop the perfect executive insight presentation
 
 ## 🎯 Objectives
 The primary goal is to provide a 360-degree view of the Olist Store to measure preformance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy. Stakeholders requested to know:
@@ -33,17 +33,17 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 ### SOW (Scope of Work):
 * project_scope_of_work: Used to outline the project main goals and considerations
 
-### SQL Pipeline (BigQuery Scripts):
+### Access to SQL and DAX Scipts:
 * DDL_Schema_Setup: Scripts used to define the table structures and data types
 * SQL_Cleaning_Setup: Scripts used to clean and transform data
-* DML_Automation_Setup: Scripts used to insert, update, delete, and merge data across tables
+* DML_Data_Updating: Scripts used to insert, update, delete, and merge data across tables
 
 ### Dataset Metadata and Structure:
 * dataset_metadata: Files stored for company and analysts to understand the data
 
 ### Dashboard Preview
 * Olist_360_Dashboard: The source file for the interactive Power BI report
-* Dashboard_Static_Report: A PDF/Image version of the dashboard for quick viewing without interactive slicers or parameters
+* Executive_Insights_Presentation: A Summarized PowerPoint presentation highlighting key preformance trends, data-driven insights from the 2016–2018 period, and strategic recommendations for the business
 
 ### Executive Summary:
 * Executive_Summary: A concise report summarizing the key insights and data backed recommendations for the Olist Stakeholders
