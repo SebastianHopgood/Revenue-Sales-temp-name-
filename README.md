@@ -1,9 +1,9 @@
-# 🚀 Olist 360: E-Commerce End-to-End Business Intelligence
+# 🚀 Olist 360: E-Commerce End-to-End Business Intelligence (EDA)
 
 ## 📋 Overview
 The project analyzes a real-world Brazilian ecommerce public dataset of orders made at the Olist Store, containing approximately 100,000 orders between 2016 and 2018. The dataset is structured across 9 relational tables covering customers, orders, locations, products, categories, sellers, and reviews, enabling a full view of the end-to-end e-commerce process from purchase to delivery and customer feedback.
 
-The goal of the project is to simulate a real business scenario by developing an interactive dashboard for stakeholders to monitor and analyze key business performance metrics. To support this, raw CSV data was imported and integrated into SQL using Excel, then cleaned and transformed using SQL processes. SQL pipelines were developed to structure and automate data preparation, and multiple table joins were used to create a star schema for analysis. The cleaned dataset was then connected to Power BI, where an interactive dashboard was built to help stakeholders track key performance indicators and derive actionable insights.
+The goal of the project is to simulate a real business scenario by developing an interactive dashboard for stakeholders to monitor and analyze key business performance metrics. To support this, raw CSV data was imported and integrated into SQL using Excel, BigQuery datasets were created and changed within SQL using DML and DDL, then cleaned and transformed using SQL processes, and multiple tables were joined together to create a star schema for analysis. The cleaned dataset was then connected to Power BI, where an interactive dashboard was built to help stakeholders find out answers to their business problems.
 
 ## 🎯 Objectives
 The primary goal is to provide a 360-degree view of the Olist Store to measure preformance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy Stakeholders requested to know:
