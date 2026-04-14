@@ -20,10 +20,21 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 * Vs Code: Joined with Git to control project codes files
 
 ## 🔄 Project Workflow
-- Explain what i did and the process including the sections below: (include process Ask, Prepare, Process, Analyze, Share, Act)
 
-### (Break down sections using 3 hashtags for each step)
--
+### ASK
+* **Define the Project Goal:** The primary goal is to provide a 360-degree view of the Olist Store to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
+
+* **Define the Stakeholders:** Olist CEO and Logistics Department
+
+* **Ask SMART (Specific, Measurable, Achievable, Relevant, Time-bound) Questions to Identify Business Problems/Needs:**
+
+* **Sales:** Identify the top 5 product categories by total revenue and calculate their Month-over-Month (MoM) growth between 2016 and 2018
+* **Logistics:** Determine the average lead time in days for each Brazilian state and identify regions where the average exceeds the estimated delivery date
+* **Satisfaction:** Quantify the correlation coefficient between shipping delays (Actual vs. Estimated) and average review scores (1-5)
+* **Strategy:** Identify sellers in the top 10% by sales volume and map the geographic density of customers to find unserved high-demand regions
+
+* **Develop A SOW (Scope of Work)**:
+* SOW is created in order to give stakeholders a clear outline of the project which includes: project overview, scope, out-of-scope, project deliverables and files, key project milestones, and an estimated timeline for each milestone and project completion. Link to SOW PDF: "add link"
 
 ## 💡 Key Insights & Recommnedataions 
 - Bullet points on what key insights and what actions are best to take for the company
