@@ -72,23 +72,43 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 * Current: Medium - Data spans 2016-2018. While its nor real-time, it is exellent for historical analysis and relevant to the stakeholders needs. (check if it acc has all dates needed)
 * Cited: High - Fully documented and hosted on Kaggle with clear ownership
 
-### PROCESS Phase
+### PROCESS Phase (Medallion Architecture)
 
+* **Bronze (Raw):** Ingested 9 raw Olist datasets from CSVs into BigQuery without modifications to preserve data lineage
+
+* **Silver (Staging/Cleaned):**
+* Schema Enforcement: Defined DDL schemas to ensure data types (Dates, Floats, Strings) were strictly followed
+* Cleaning & Standardization: Used SQL to handle nulls, remove duplicates, and standardize formats across the 9 datasets
+* Domain Integration: Instead of a single "flat" table, datasets were joined into unified tables based on business logic (e.g., merging Order, Item, and Payment data)
+
+* **Gold (Curated):**
+* Dimensional Modeling: Developed a Star Schema optimized for Power BI performance
+* Business Logic: Applied advanced transformations, feature engineering (e.g., delivery lead times), and created SQL views for reporting
+  
 * **Schema Setup:** Setup schemas by using DDL (Data Definition Language) SQL language
 * Developed schemas for staging data datasets for each of the 9 unique datasets to provide a area where clean data can be inserted into
-* After cleanning and inserting the data into staging datasets, schemas where then created for final datasets
+* After cleanning and inserting the data into staging datasets, schemas where then created for final/gold layer datasets
 
-* **Data Staging/Cleanning:** Cleaned data through SQL scripts
-* (List all the things i did to clean data when i actually compelte it)
+* **Data Cleaning & Validation:** Cleaned data through SQL scripts
+* Data Cleaning: (List all the things i did to clean data when i actually compelte it)
+* Data Validation: Happens after cleaning data and intergration (list all things that i did to validate data when i actually compete it)
 
 ** **Data Transformation:**
 * (list all the things i did to transform data when i actually complete it)
 
-* **Data Intergration:** 
+* **Data Intergration:**  (remove this and add it into the silver area)
 * Data intergrtaion involves intgergtarting the data into the bronze layer but also intergrtationg/joining datasets into the siver layer to create unified tables. For example, you dont join all 9 datasets into 1 table but mabye you need to join 3 of the 9 into 1 to create relationships.
 
-* **Data Validation:** 
-* Happens after cleaning data and intergration (list all things that i did to validate data when i actually compete it)
+* **Data Modeling:** (add this to gold layer but delete this section)
+* Designed a start schema optimized for analytical querying and dashboard perfomace
+* Built a central fact table capturing order transactions and KPIs
+* Created supporting dimensiton tables
+* Developed query views to improve find hyper specific data, improve preformace, and save on storage space and cost
+
+*  **Final Data Preperation**
+*  Loaded structured dataset into Power BI via BigQuey import connection
+*  Optimized model relationships, cardinality, and cross filtering
+*  Configured data model to supprt KPI calculations and time intelligence
 
 
 ## 💡 Key Insights & Recommnedataions 
