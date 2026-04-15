@@ -29,4 +29,4 @@ FROM `olist-360-e-commerce.raw_data.raw_olist_order_payments`
 WHERE 
   payment_sequential >= 0 AND
   payment_installments >= 0 AND
-  payment_value >= 0.00
+  payment_value >= 0.00;
