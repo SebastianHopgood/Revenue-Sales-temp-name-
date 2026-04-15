@@ -22,6 +22,6 @@ SELECT DISTINCT
   SAFE_CAST(review_answer_timestamp AS TIMESTAMP) AS review_answer_timestamp
 FROM `olist-360-e-commerce.raw_data.raw_olist_order_reviews`
 
--- Ensure only valid business metrics are included
 WHERE
+  -- Ensure only valid business metrics are included
   review_score BETWEEN 1 AND 5;
