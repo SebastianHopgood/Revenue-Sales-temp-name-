@@ -74,6 +74,22 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 
 ### PROCESS Phase
 
+* **Schema Setup:** Setup schemas by using DDL (Data Definition Language) SQL language
+* Developed schemas for staging data datasets for each of the 9 unique datasets to provide a area where clean data can be inserted into
+* After cleanning and inserting the data into staging datasets, schemas where then created for final datasets
+
+* **Data Staging/Cleanning:** Cleaned data through SQL scripts
+* (List all the things i did to clean data when i actually compelte it)
+
+** **Data Transformation:**
+* (list all the things i did to transform data when i actually complete it)
+
+* **Data Intergration:** 
+* Data intergrtaion involves intgergtarting the data into the bronze layer but also intergrtationg/joining datasets into the siver layer to create unified tables. For example, you dont join all 9 datasets into 1 table but mabye you need to join 3 of the 9 into 1 to create relationships.
+
+* **Data Validation:** 
+* Happens after cleaning data and intergration (list all things that i did to validate data when i actually compete it)
+
 
 ## 💡 Key Insights & Recommnedataions 
 - Bullet points on what key insights and what actions are best to take for the company
