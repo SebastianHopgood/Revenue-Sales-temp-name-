@@ -30,6 +30,6 @@ SELECT DISTINCT
   SAFE_CAST(COALESCE(product_width_cm, 0) AS INT64) AS product_width_cm
 FROM `olist-360-e-commerce.raw_data.raw_olist_products`
 
--- Data Integrity: Ensures every product record has a valid identifier
 WHERE
+  -- Data Integrity: Ensures every product record has a valid identifier
   product_id IS NOT NULL;
