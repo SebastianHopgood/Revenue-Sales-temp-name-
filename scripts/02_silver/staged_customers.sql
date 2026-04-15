@@ -1,12 +1,12 @@
 /* 
 Logic Overview:
-  - Data Refinement: Standardize raw customer data into a cleaned Silver-layer table.
-  - Primary Keys: Standardize IDs (LOWER/TRIM) to ensure 100% join compatibility across tables.
+  - Data Refinement: Standardize raw customer data into a cleaned Silver-layer table
+  - Primary Keys: Standardize IDs (LOWER/TRIM) to ensure 100% join compatibility across tables
   - String Normalization: Apply consistent casing (UPPER for states, INITCAP for cities) and 
-    remove special character noise to improve dashboard readability.
-  - Schema Enforcement: Use SAFE_CAST to strictly define data types (STRING, INT64) 
-    and handle potential raw data corruption.
-  - Deduplication: Ensure record uniqueness to prevent inflated customer metrics.
+    remove special character noise to improve dashboard readability
+  - Schema Enforcement: Use SAFE_CAST to strictly define data types (STRING, INT64)
+    and handle potential raw data corruption
+  - Deduplication: Ensure record uniqueness to prevent inflated customer metrics
 */
 
 CREATE OR REPLACE TABLE `olist-360-e-commerce.staged_data.staged_customers` AS
