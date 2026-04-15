@@ -8,7 +8,6 @@ Logic Overview:
   - Data Integrity: Filters for valid global coordinate ranges and ensures every record has a valid Zip Code
 */
 
-
 CREATE OR REPLACE TABLE `olist-360-e-commerce.staged_data.staged_geolocation` AS
 
 SELECT DISTINCT
