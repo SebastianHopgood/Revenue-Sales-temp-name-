@@ -72,12 +72,12 @@ Olist CEO and Logistics Department
 ### PROCESS Phase (Medallion Architecture)
 ---
 
-* **Bronze (Raw):**
+**Bronze (Raw):**
 * Basic cleanning in excel files to remove unecessary columns, fix headers with proper names and using snake casing, and removing broken fromatting to ensure a sucessful data load. Columns that were removed were: review_comment_title and review comment message
 * Ingested 9 raw Olist datasets from CSVs into BigQuery without modifications to preserve data lineage
 * Validated data post data integration to confirm proper data load, correct column names, and correct data types
 
-* **Silver (Staging/Cleaned):**
+**Silver (Staging/Cleaned):**
 * Schema Enforcement: Defined DDL schemas to ensure data types (Dates, Floats, Strings, etc.)
 * Cleaning & Standardization: Used SQL to handle nulls, filtered out misisng primary keys, perpared data for proper joins, implemented headder correction, remove duplicates, string normalization, and standardize formats across the 9 datasets to prep data for readability and data digestion for Power BI visualizations
 * Data Validation: Ensured data is accurate, complete, and consistant across all datasets pre and post data integration
@@ -85,38 +85,12 @@ Olist CEO and Logistics Department
 [View SQL Cleaning Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/02_silver)
 * View clean data previews: [View Cleanned Data Previews](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/cleaned_data_previews)
 
-* **Gold (Curated):**
+**Gold (Curated):**
 * Dimensional Modeling: Developed a Star Schema optimized for Power BI performance
 * Business Logic: Applied advanced transformations, feature engineering (e.g., delivery lead times), and created SQL views for reporting
-  
-* **Schema Setup:** Setup schemas by using DDL (Data Definition Language) SQL language
-* Developed schemas for staging data datasets for each of the 9 unique datasets to provide a area where clean data can be inserted into
-* After cleanning and inserting the data into staging datasets, schemas where then created for final/gold layer datasets
 
-* **Data Cleaning & Validation:** Cleaned data through SQL scripts
-* Data Cleaning: (List all the things i did to clean data when i actually compelte it)
-* Data Validation: Happens after cleaning data and intergration (list all things that i did to validate data when i actually compete it)
-
-* **Data Transformation:**
-* (list all the things i did to transform data when i actually complete it)
-
-* **Data Intergration:**  (remove this and add it into the silver area)
-* Data intergrtaion involves intgergtarting the data into the bronze layer but also intergrtationg/joining datasets into the siver layer to create unified tables. For example, you dont join all 9 datasets into 1 table but mabye you need to join 3 of the 9 into 1 to create relationships.
-
-* **Data Modeling:** (add this to gold layer but delete this section)
-* Designed a start schema optimized for analytical querying and dashboard perfomace
-* Built a central fact table capturing order transactions and KPIs
-* Created supporting dimensiton tables
-* Developed query views to improve find hyper specific data, improve preformace, and save on storage space and cost
-
-*  **Final Data Preperation**
-*  Loaded structured dataset into Power BI via BigQuey import connection
-*  Optimized model relationships, cardinality, and cross filtering
-*  Configured data model to supprt KPI calculations and time intelligence
-
-*  **Creation of Metadata:**
+**Creation of Metadata:**
 *  Explain how i applied data lineage and created data dictionarys to explains what coloumsn mean in a .md file
-
 
 ## 💡 Key Insights & Recommnedataions 
 - Bullet points on what key insights and what actions are best to take for the company
