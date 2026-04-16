@@ -80,7 +80,7 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 * Validated data post data integration to confirm proper data load, correct column names, and correct data types
 
 * **Silver (Staging/Cleaned):**
-* Schema Enforcement: Defined DDL schemas to ensure data types (Dates, Floats, Strings) were strictly followed
+* Schema Enforcement: Defined DDL schemas to ensure data types (Dates, Floats, Strings, etc.)
 * Cleaning & Standardization: Used SQL to handle nulls, remove duplicates, and standardize formats across the 9 datasets
 * Domain Integration: Instead of a single "flat" table, datasets were joined into unified tables based on business logic (e.g., merging Order, Item, and Payment data)
 
