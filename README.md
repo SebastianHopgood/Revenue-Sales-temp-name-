@@ -55,15 +55,7 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 * Retention Bias: 98.8% of customers are one time buyers which make it difficult to calcualte loyalty trends
 
 * **Data Organization:** The dataset consists of 9 relational tables:
-* olist_customers_dataset.csv
-* olist_geolocation_dataset.csv
-* olist_order_items_dataset.csv
-* olist_order_payments_dataset.csv
-* olist_order_reviews_dataset.csv
-* olist_orders_dataset.csv
-* olist_products_dataset.csv
-* olist_sellers_dataset.csv
-* product_category_name_translation.csv
+* View all raw data: [Raw Data](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/raw_datasets)
 
 * **Determining What Tools to Use:** Excel, SQL, Power BI, PowerPoint, GitHub/Git, VS_Code
 
