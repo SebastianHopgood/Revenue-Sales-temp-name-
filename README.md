@@ -100,6 +100,9 @@ Example of Code: ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-
 * SQL SCRIPTS:
 * SHOW: the proof of what i did and write comments to explain what i did, give a preview in readme file
 
+
+**NOTETTETETETTE**: THE STAKEHOLDERS QUESTIONS ALL REVOLVE AROUND ORDERS, JOIN DATA FROM ALL 4 ORDERS TABLES INTO A FACT TABLE, THEN CREATE IDS TO MAKE DIM AND DATE TABLES
+
 **Creation of Metadata:**
 *  Explain how i applied data lineage and created data dictionarys to explains what coloumsn mean in a .md file
 
