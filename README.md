@@ -41,7 +41,7 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 ### PERPARE Phase
 ---
 
-* **Data Source:**
+  **Data Source:**
 * The analysis utilizes the Olist Brazilian E-Commerce Public Dataset. This dataset contains approximately 100,000 orders made between 2016 and 2018.
 
 * **Data Storage & Privacy:**
@@ -55,12 +55,13 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 * Resonse Bias: Review scores (1-5) tend to represent "extremes". Customers typically only leave reviews for exceptionally good or very poor experiences
 * Retention Bias: 98.8% of customers are one time buyers which make it difficult to calcualte loyalty trends
 
-* **Data Organization:** The dataset consists of 9 relational tables:
-* View all raw data: [Raw Data](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/raw_datasets)
+  **Data Organization:**
+* View all 9 raw relational datasets: [Raw Data](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/raw_datasets)
 
-* **Determining What Tools to Use:** Excel, SQL, Power BI, PowerPoint, GitHub/Git, VS_Code
+  **Determining What Tools to Use:**
+* Excel, SQL, Power BI, PowerPoint, GitHub/Git, VS_Code
 
-* **Data ROCCC (Reliable, Original, Comprehensive, Current, Cited):**
+  **Data ROCCC (Reliable, Original, Comprehensive, Current, Cited):**
 * Reliable: High - The dataset is a real-world public dataset provided by Olist, a major Brazillian e-commerce platform
 * Origional: High - This is first-party data directily from the souce (Olist Store)
 * Comprehensive: High - Includes 100k+ orders, customer locations, payment details, and review scores across 9 tables
