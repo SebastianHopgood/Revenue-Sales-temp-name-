@@ -152,7 +152,7 @@ The Approach:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/f1554a3611e1cb3846d51c578ec1c101e385c40b/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/seller_performance_top_10%25.png)
 * Insights:
 * Market Density:
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/c36955022def744561a89dfe8a32695b117f531a/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/market_density_pic.png)
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/b161567bb9ab160c59be7e52d58e27813f53aa74/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/market_density_picture.png)
 
 ## 💡 Key Insights & Recommnedataions 
 - Bullet points on what key insights and what actions are best to take for the company
