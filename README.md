@@ -26,10 +26,10 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 The Ask Phase establishes the business context for the project by defining the core objectives, identifying key stakeholders, and framing technical questions into actionable SMART goals
 
 **Define the Project Goal:** 
-The primary goal is to provide a 360-degree view of the Olist Store to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
+* The primary goal is to provide a 360-degree view of the Olist Store to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
 
 **Define the Stakeholders:** 
-Olist CEO and Logistics Department
+* Olist CEO and Logistics Department
 
 **Ask SMART (Specific, Measurable, Achievable, Relevant, Time-bound) Questions to Identify Business Problems/Needs:**
 * Sales: Identify the top 5 product categories by total revenue and calculate their Month-over-Month (MoM) growth between 2016 and 2018
