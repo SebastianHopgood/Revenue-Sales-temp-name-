@@ -139,9 +139,13 @@ To ensure a high-performance and insightful dashboard, I focused on three techni
 * The Insight:
 
 2. Sales & Seller Strategy
-* The Approach:
-* The Code:
-* The Insight:
+* The Approach: First, I wrote an analysis query to identify the top 5 product categories by total revenue. Therefore, i wil be aware on what product categories to display in the Power BI dashboard for calculating Month-over-Month (MoM) growth. Next, I identified the sellers in the top 10% of sales volume. So, when i create a map visualization in Power BI I can use conditional formatting to highlight the top 10% sellers by revenue contribution
+* Top 5 Product Categories by Total Revenue Query:
+* ![image alt]()
+* Insights:
+* Top 10% Sellers by Revenue Contribution Query:
+* ![image alt]()
+* Insights:
 
 
 
