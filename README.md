@@ -136,7 +136,7 @@ Findings:
 * The top 5 product categories by total revenue are: Healthy Beauty, Watches Gifts, Bed Bath Table, Sports Leisure, and Computers Accessories
 Insights:
 * The Top 5 categories (Health & Beauty, Watches & Gifts, Bed Bath & Table, Sports & Leisure, and Computers & Accessories) are the primary engines of the business. Stakeholders should prioritize these areas for inventory stability, increase ad-spend for products within these categories, and potentially implement cross-selling bundles for prodcuts accross these categories
-* In-depth Query Analysis/Context:
+In-depth Query Analysis/Context:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/dacf4b096343878bc7dc9b2f8cc7b535ca31364e/sql%20scripts/anlaysis_scripts/sales_performance_analysis/top_5_product_categories_context_picture.png)
 Findings:
 * There are a total of 74 product categories. The top 5 product categories total revenue percentage share combined is equal to 38.9% of revenue, top 10 is equal to 72.5% of revenue.
