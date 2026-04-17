@@ -93,7 +93,7 @@ Olist CEO and Logistics Department
 
 **Gold (Curated):**
 The Gold Layer represents the final, cleaned, and modeled state of the data. I transformed the normalized staged data into a Star Schema to optimize for analytical performance and business reporting
-* **The Star Schema:**
+**The Star Schema:**
 * Fact Table (main table): orders_fact (joined datasets: orders, order_items, order_payments, order_reviews)
 * Dimension Tables: dim_customers, dim_sellers, dim_date, dim_geolocation, dim_products (joined datasets: dim_products and category_name_translation)
 
