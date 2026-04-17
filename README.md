@@ -130,13 +130,18 @@ The Analyze phase focuses on querying the curated gold-layer data to uncover tre
 **Sales Performance**:
 Question 1:
 * Identify the top 5 product categories by total revenue
-* Query:  
-
-
+* Query:
+* here
 Findings:
-* explain what happend
+* The top 5 product categories by total revenue are: Healthy Beauty, Watches Gifts, Bed Bath Table, Sports Leisure, and Computers Accessories
 Insights:
-* explain business value and why its relevant to stakhodlers needs
+* The Top 5 categories (Health & Beauty, Watches & Gifts, Bed Bath & Table, Sports & Leisure, and Computers & Accessories) are the primary engines of the business. Stakeholders should prioritize these areas for inventory stability, increase ad-spend for products within these categories, and potentially implement cross-selling bundles for prodcuts accross these categories
+* In-depth Query Analysis/Context:
+* query 2 here:
+Findings:
+* There are a total of 74 product categories. The top 5 product categories total revenue percentage share combined is equal to 38.9% of revenue, top 10 is equal to 72.5% of revenue.
+Insights:
+* With the top 10 categories generating over 72% of revenue, the business has a "long tail" of 64 other categories that contribute very little. Stakeholders can use this data to decide whether to cut underperforming lines to save on storage and operational costs
 
 
 
