@@ -163,7 +163,8 @@ Insights:
 ---
 Question 1:
 * Determine the average lead time in days for each Brazilian state
-* put image here
+* Created new columns for analyssis:
+* ![alt image](
 
 Findings:
 * put findings here
