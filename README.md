@@ -83,7 +83,7 @@ The Bronze Layer serves as the landing zone for raw data, ensuring a permanent r
 
 **Silver (Staging/Cleaned):**
 ---
-The Silver Layer focus is on data quality and standardization, transforming raw files into clean, validated, and joined staging tables ready for modeling
+The Silver Layer focus is on data quality and standardization, transforming raw files into clean, validated, and gatting staging tables ready for modeling
 * Schema Enforcement: Defined DDL schemas to ensure data types (Dates, Floats, Strings, etc.)
 * Cleaning & Standardization: Used SQL to handle nulls, filtered out missing primary keys, prepared data for proper joins, implemented headder correction, remove duplicates, string normalization, and standardize formats across the 9 datasets to prep data for readability and data digestion for Power BI visualizations
 * Data Validation: Ensured data is accurate, complete, and consistent across all datasets pre and post data integration
