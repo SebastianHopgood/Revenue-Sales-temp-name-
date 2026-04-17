@@ -96,16 +96,21 @@ The Gold Layer represents the final, cleaned, and modeled state of the data. I t
 * **The Star Schema:**
 * Fact Table (main table): orders_fact (joined datasets: orders, order_items, order_payments, order_reviews)
 * Dimension Tables: dim_customers, dim_sellers, dim_date, dim_geolocation, dim_products (joined datasets: dim_products and category_name_translation)
-* Relationships: orders_fact was all joing via order_id. dim_customers will connect one-to-many to orders_fact via customer_id, dim_sellers will connect one-to-many to orders_fact via seller_id, dim_date will connect one-to-many to orders_fact via date_key to order_purchase_timestamp, dim_geolocation will connect one-to-many to orders_fact via customer id, and dim_products will connet one-to-many to orders_fact via product_id
 
-* **Transformation Logic**:
+**Relationships:**
+* orders_fact serves as the central hub 
+* dim_customers, dim_sellers, and dim_products connect to orders_fact via their respective IDs (customer_id, seller_id, product_id).
+* dim_date connects to the fact table's order_purchase_timestamp via date_key.
+* dim_geolocation acts as a supporting dimension, joining to dim_customers and dim_sellers via zip_code_prefix to facilitate geographic density mapping.
+
+**Transformation Logic**:
 I implemented the following engineering best practices in this layer:
 * Deduplication: Pre-aggregated payments to prevent row-doubling and ensure revenue accuracy
 * Language Translation: Joined category lookups to provide English labels for English-speaking stakeholders
 * Time Intelligence: Built a custom dim_date table with Monday-start logic and weekend flags for seasonal analysis
 * Spatial Optimization: Aggregated geolocation coordinates to the Zip Prefix level to protect PII and improve map rendering speeds
 
-* **SQL Documentation:**
+**SQL Documentation:**
 Click to view Gold Layer SQL Scripts: [All Table SQL Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/03_gold)
 * Exmple of Code:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/b7f97f79a975b9fc0cc67228064e96175f8691ec/data/order_fact_query_preview.png)
