@@ -138,7 +138,7 @@ To ensure a high-performance and insightful dashboard, I focused on three techni
 * The Code: (1-2 code queries max)
 * The Insight:
 
-2. Sales & Seller Strategy
+Sales & Seller Strategy
 ---
 The Approach:
 * **Top 5 Category Identification:** I wrote an analysis query to identify the top 5 product categories by total revenue. Therefore, i wil be aware on what product categories to display in the Power BI dashboard for calculating Month-over-Month (MoM) growth
