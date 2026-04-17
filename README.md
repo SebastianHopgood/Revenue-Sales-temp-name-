@@ -159,7 +159,7 @@ Findings:
 Insights:
 * put insights here
 
-**Logistics:**
+**Logistics & Delivery:**
 ---
 Question 1:
 * Determine the average lead time in days for each Brazilian state
