@@ -126,7 +126,25 @@ Click to view Gold Layer SQL Scripts: [All Table SQL Scripts](https://github.com
 
 ### Analyze Phase
 ---
-The Analyze phase focuses on querying the curated gold-layer data to uncover trends, patterns, and relationships that address key stakeholder questions. These insights are used to define relevant KPIs and guide the design of effective data visualizations
+The Analyze phase I transitioned from data cleaning to exploratory and advanced analysis using SQL. My goal was to move beyond simple numbers and uncover the "why" behind the Olist Store’s performance
+
+To ensure a high-performance and insightful dashboard, I focused on three technical pillars:
+* Pre-Aggregation & View Creation: I developed SQL views to aggregate millions of raw transaction records into streamlined summaries by state, category, and seller. This optimized data loading times for the final visualization
+* Feature Engineering (Calculated Columns): I created custom logic to calculate critical business KPIs, such as Lead Time Days (the delta between purchase and delivery) and On-Time Delivery Status (comparing actual delivery vs. estimated dates)
+* Intertwined Insights: I performed multi-table joins to correlate disparate data points—specifically linking Logistics Performance directly to Customer Review Scores—to prove the business impact of shipping delays
+
+1. Logistics & Customer Experience
+* The Approach:
+* The Code: (1-2 code queries max)
+* The Insight:
+
+2. Sales & Seller Strategy
+* The Approach:
+* The Code:
+* The Insight:
+
+
+
 
 **Sales Performance**:
 ---
@@ -137,7 +155,7 @@ Question 1:
 Findings:
 * The top 5 product categories by total revenue are: Healthy Beauty, Watches Gifts, Bed Bath Table, Sports Leisure, and Computers Accessories
 
-Insights:
+Recommendation:
 * The Top 5 categories (Health & Beauty, Watches & Gifts, Bed Bath & Table, Sports & Leisure, and Computers & Accessories) are the primary engines of the business. Stakeholders should prioritize these areas for inventory stability, increase ad-spend for products within these categories, and potentially implement cross-selling bundles for prodcuts accross these categories
 
 In-depth Query Analysis/Context:
@@ -146,18 +164,17 @@ In-depth Query Analysis/Context:
 Findings:
 * There are a total of 74 product categories. The top 5 product categories total revenue percentage share combined is equal to 38.9%, top 10 is equal to 72.5% of total revenue
 
-Insights:
+Recommendation:
 * With the top 10 categories generating over 72% of revenue, the business has a "long tail" of 64 other categories that contribute very little. Stakeholders can use this data to decide whether to cut underperforming lines to save on storage and operational costs
 
 Question 2:
 * Calculate product categories Month-over-Month (MoM) growth between 2016 and 2018
-* ![image alt) PUT A DAX PHOTO HERE
+* Each product will be monitored using a line graph in Power Bi to display product category MoM growth using DAX
 
-Findings:
-* put findings here
-
-Insights:
-* put insights here
+**Seller Strategy:**
+---
+Question 1:*
+* Identify sellers in the top 10% by sales volume
 
 **Logistics & Delivery:**
 ---
@@ -169,10 +186,10 @@ Question 1:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/f4cc896a8f9ef48dc10dbd2b7591d5a2aa56d3e3/sql%20scripts/anlaysis_scripts/logistics_and_delivery_analysis/average_customer_lead_time_picture.png)
 
 Findings:
-* put findings here
+* 27 brazilian states were analyzed, the max average lead time is 28.2 days, minimun is 8.7 days, the top 5 states with longest wait time (in order) are: RR, AP, AM, AL, PA
 
-Insights:
-* put insights here
+In-depth Query Analysis:
+* ![image alt](
 
 Question 2:
 
