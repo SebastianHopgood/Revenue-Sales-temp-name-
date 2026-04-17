@@ -1,3 +1,5 @@
+CREATE OR REPLACE VIEW `olist-360-e-commerce.data_views.market_density` AS
+
 SELECT 
   c.customer_state,
   
