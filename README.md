@@ -80,7 +80,7 @@ The Bronze Layer serves as the landing zone for raw data, ensuring a permanent r
 * Initial data profiling and quality audit using Microsoft Excel to remove unnecessary columns, fix headers with proper names and snake casing, and removing broken fromatting to ensure a successful data load. Columns that were removed were: review_comment_title and review comment message
 * Ingested 9 raw Olist datasets from CSVs into BigQuery without modifications to preserve data lineage
 * Validated data post data integration to confirm proper data load, correct column names, and correct data types
-* Bronze Data Layout:
+* Bronze/Raw Data Layout:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/7202dc2ddd170f9ed65a5f78989c84466ffaacd2/data/raw_data_intergration_preview.png)
 
 **Silver (Staging/Cleaned):**
@@ -94,7 +94,7 @@ The Silver Layer focus is on data quality and standardization, transforming raw 
 [View All SQL Cleaning Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/02_silver)
 * Example of Code:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/c1b512c2cc032e9508f922e1ff9b18edf6bd15e6/data/SQL_query_staged_orders_picture.png)
-* Staging Data Layout:
+* Silver/Staging Data Layout:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/707e180cd0e5e59e27f7d6d5dd2df22e8d6f9cda/data/BigQuery_staging_dataset_layout.png)
 
 **Gold (Curated):**
