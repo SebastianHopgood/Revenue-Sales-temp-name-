@@ -90,6 +90,22 @@ Example of Code: ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/707e180cd0e5e59e27f7d6d5dd2df22e8d6f9cda/data/BigQuery_staging_dataset_layout.png)
 
 **Gold (Curated):**
+The Gold Layer represents the final, cleaned, and modeled state of the data. I transformed the normalized staged data into a Star Schema to optimize for analytical performance and business reporting
+* **The Star Schema:**
+* Fact Table (main table): orders_fact (joined datasets: orders, order_items, order_payments, order_reviews)
+* Dimension Tables: dim_customers, dim_sellers, dim_date, dim_geolocation, dim_products (joined datasets: dim_products and category_name_translation)
+* Relationships: orders_fact was all joing via order_id. dim_customers will connect one-to-many to orders_fact via customer_id, dim_sellers will connect one-to-many to orders_fact via seller_id, dim_date will connect one-to-many to orders_fact via date_key to order_purchase_timestamp, dim_geolocation will connect one-to-many to orders_fact via customer id, and dim_products will connet one-to-many to orders_fact via product_id
+
+* **Transformation Logic**:
+I implemented the following engineering best practices in this layer:
+* Deduplication: Pre-aggregated payments to prevent row-doubling and ensure revenue accuracy
+* Language Translation: Joined category lookups to provide English labels for English-speaking stakeholders
+* Time Intelligence: Built a custom dim_date table with Monday-start logic and weekend flags for seasonal analysis
+* Spatial Optimization: Aggregated geolocation coordinates to the Zip Prefix level to protect PII and improve map rendering speeds
+
+* **SQL Documentation:**
+Click to view Gold Layer SQL Scripts: [All Table SQL Scripts]( 
+
 * Dimensional Modeling: Developed a Star Schema optimized for Power BI performance
 * (SHOW A DRAWING OF THE TABLE STRUCTURE WHEN ITS DONE)
 * -> EXPLAIN: why i choose to do this schema for this project, how it relates to answering buiness questions, and why i choose to leave out speciic things.
