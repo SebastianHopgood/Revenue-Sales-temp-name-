@@ -23,6 +23,7 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 
 ### ASK Phase
 ---
+The Ask Phase establishes the business context for the project by defining the core objectives, identifying key stakeholders, and framing technical questions into actionable SMART goals
 
 **Define the Project Goal:** 
 The primary goal is to provide a 360-degree view of the Olist Store to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
@@ -44,7 +45,7 @@ Olist CEO and Logistics Department
 The Prepare Phase focuses on data discovery, source validation, and bias assessment to ensure the dataset is fit-for-purpose and technically sound for high-level business analysis
 
 **Data Source:**
-* The analysis utilizes the Olist Brazilian E-Commerce Public Dataset. This dataset contains approximately 100,000 orders made between 2016 and 2018.
+* The analysis utilizes the Olist Brazilian E-Commerce Public Dataset. This dataset contains approximately 100,000 orders made between 2016 and 2018
 
 **Data Storage & Privacy:**
 * Storage: Raw CSV files were extracted and loaded into Google BigQuery for centralized storage and high-performance SQL processing
