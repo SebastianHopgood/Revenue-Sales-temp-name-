@@ -143,7 +143,7 @@ In-depth Query Analysis/Context:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/dacf4b096343878bc7dc9b2f8cc7b535ca31364e/sql%20scripts/anlaysis_scripts/sales_performance_analysis/top_5_product_categories_context_picture.png)
 
 Findings:
-* There are a total of 74 product categories. The top 5 product categories total revenue percentage share combined is equal to 38.9% of revenue, top 10 is equal to 72.5% of revenue.
+* There are a total of 74 product categories. The top 5 product categories total revenue percentage share combined is equal to 38.9%, top 10 is equal to 72.5% of total revenue
 
 Insights:
 * With the top 10 categories generating over 72% of revenue, the business has a "long tail" of 64 other categories that contribute very little. Stakeholders can use this data to decide whether to cut underperforming lines to save on storage and operational costs
