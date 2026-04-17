@@ -105,6 +105,7 @@ I implemented the following engineering best practices in this layer:
 
 * **SQL Documentation:**
 Click to view Gold Layer SQL Scripts: [All Table SQL Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/03_gold)
+Exmple of Code: ![image alt]()
 
 * Dimensional Modeling: Developed a Star Schema optimized for Power BI performance
 * (SHOW A DRAWING OF THE TABLE STRUCTURE WHEN ITS DONE)
