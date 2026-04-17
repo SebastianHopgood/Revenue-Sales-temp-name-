@@ -166,7 +166,7 @@ Question 1:
 * Created new columns for analyssis:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/8427cbb2d303b867311fa00d1fdeb53966c3922c/sql%20scripts/anlaysis_scripts/logistics_analysis/new_logistics_columns_picture.png)
 * Analysis Query:
-* ![image alt](
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/f4cc896a8f9ef48dc10dbd2b7591d5a2aa56d3e3/sql%20scripts/anlaysis_scripts/logistics_and_delivery_analysis/average_customer_lead_time_picture.png)
 
 Findings:
 * put findings here
