@@ -5,7 +5,7 @@ Query 2 = Category Count Verification
 
 Results (out of 74 product categories): 
 Top 5 Categories = 39.8% revenue share
-Top 10 Categories = 62.42% revenue share
+Top 10 Categories = 62.4% revenue share
 */
 
 SELECT
