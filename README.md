@@ -124,6 +124,20 @@ Click to view Gold Layer SQL Scripts: [All Table SQL Scripts](https://github.com
 * Gold/Analytical Layer Layout:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/95460da69e90f424b67ac96f1375d50083036543/data/gold_layer_layout.png)
 
+### Analyze Phase
+---
+The Analyze phase focuses on querying the curated gold-layer data to uncover trends, patterns, and relationships that address key stakeholder questions. These insights are used to define relevant KPIs and guide the design of effective data visualizations
+**Sales Performance**:
+Question 1:
+* question goes here
+* query goes here
+Findings:
+* explain what happend
+Insights:
+* explain business value and why its relevant to stakhodlers needs
+
+
+
 ## 💡 Key Insights & Recommnedataions 
 - Bullet points on what key insights and what actions are best to take for the company
 
