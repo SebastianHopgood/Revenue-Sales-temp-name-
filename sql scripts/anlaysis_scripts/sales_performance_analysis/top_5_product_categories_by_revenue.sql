@@ -1,4 +1,5 @@
 /*
+Query Description:
 Calculates the total revenue for each product category and identifies 
 the top 5 performers
 */
