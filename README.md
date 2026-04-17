@@ -109,7 +109,7 @@ Click to view Gold Layer SQL Scripts: [All Table SQL Scripts](https://github.com
 * Exmple of Code:
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/b7f97f79a975b9fc0cc67228064e96175f8691ec/data/order_fact_query_preview.png)
 * Gold/Analytical Layer Layout:
-*  
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/95460da69e90f424b67ac96f1375d50083036543/data/gold_layer_layout.png)
 
 * Dimensional Modeling: Developed a Star Schema optimized for Power BI performance
 * (SHOW A DRAWING OF THE TABLE STRUCTURE WHEN ITS DONE)
