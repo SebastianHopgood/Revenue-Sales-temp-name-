@@ -164,7 +164,9 @@ Insights:
 Question 1:
 * Determine the average lead time in days for each Brazilian state
 * Created new columns for analyssis:
-* ![alt image](
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/8427cbb2d303b867311fa00d1fdeb53966c3922c/sql%20scripts/anlaysis_scripts/logistics_analysis/new_logistics_columns_picture.png)
+* Analysis Query:
+* ![image alt](
 
 Findings:
 * put findings here
