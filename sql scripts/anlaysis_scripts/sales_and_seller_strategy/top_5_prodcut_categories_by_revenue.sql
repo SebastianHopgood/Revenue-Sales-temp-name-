@@ -3,7 +3,7 @@ SELECT
   dp.product_category_name,
   
   -- Sum of item price represents the core product revenue
-  SUM(ofact.price) AS total_product_revenue
+  ROUND(SUM(ofact.price),2) AS total_product_revenue
 FROM `olist-360-e-commerce.analytical_data.orders_fact` AS ofact
 INNER JOIN `olist-360-e-commerce.analytical_data.dim_products` AS dp
   ON ofact.product_id = dp.product_id
