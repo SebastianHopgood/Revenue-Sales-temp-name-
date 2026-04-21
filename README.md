@@ -14,7 +14,7 @@ The primary goal is to provide a 360-degree view of the Olist Store to measure p
 
 ## 🛠️ Tools Used
 * Excel: Used for initial data inspection, metadata documentation, and as a bridge to import raw CSV files into the SQL environment
-* SQL (BigQuery): The backbone of the project. Used for DDL, DML, DQL, data cleaning, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
+* SQL (BigQuery): The backbone of the project. Used for DDL, DQL, data cleaning, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
 * Power BI: Used to build an interactive, multi-page dashboard. Leveraged DAX (Data Analysis Expressions) to create custom measures for KPIs, time intelligence, and visualizations
 * GitHub/Git: Utilized for project documentation, version control of code scripts, and hosting the portfolio
 * Vs Code: Joined with Git to control project codes files
@@ -207,12 +207,7 @@ Insights: Market Density
 * project_scope_of_work: Used to outline the project main goals and considerations
 
 ### Access to SQL and DAX Scipts:
-* DDL_Schema_Setup: Scripts used to define the table structures and data types
-* SQL_Cleaning_Setup: Scripts used to clean and transform data
-* DML_Data_Updating: Scripts used to insert, update, delete, and merge data across tables
-
-### Dataset Metadata and Structure:
-* dataset_metadata: Files stored for company and analysts to understand the data
+* sql scripts folder: Includes silver, gold, and analysis sql scripts. Silver and Gold show my process of cleaning and transfering data from bronze to silver, and create a star schema by developing final analytical tables and views. Analysis scripts show my process of major queries I wrote to gain deep insights to help understand the data
 
 ### Dashboard Preview
 * Olist_360_Dashboard: The source file for the interactive Power BI report
