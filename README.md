@@ -7,10 +7,10 @@ The goal of the project is to simulate a real business scenario by developing an
 
 ## 🎯 Objectives
 The primary goal is to provide a 360-degree view of the Olist Store to measure preformance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy. Stakeholders requested to know:
-* Sales Performance: Which product categories drive the most revenue and how is sales volumne trending over time?
-* Logistics & Delivery: What is the average delivery time across different Brazilian states and where are the most significant shipping delays?
-* Customer Experience: How does shipping performance (late vs on-time) directly impact customer review scores?
-* Seller Strategy: Which sellers are the top performers and which regions have the highest concentration of active customers?
+* Sales: Identify the top 5 product categories by total revenue and analyze monthly revenue trends from 2016 to 2018 to understand how category performance changes over time?
+* Logistics: Determine the average lead time in days for each Brazilian state and identify regions where the average exceeds the estimated delivery date?
+* Satisfaction: What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and average review scores (1-5)?
+* Strategy: Identify sellers in the top 10% by sales volume and compare seller concentration with customer distribution by state to highlight regions where demand is high but seller presence is relatively low?
 
 ## 🛠️ Tools Used
 * Excel: Used for initial data inspection, metadata documentation, and as a bridge to import raw CSV files into the SQL environment
@@ -32,10 +32,10 @@ The Ask Phase establishes the business context for the project by defining the c
 * Olist CEO and Logistics Department
 
 **Ask SMART (Specific, Measurable, Achievable, Relevant, Time-bound) Questions to Identify Business Problems/Needs:**
-* Sales: Identify the top 5 product categories by total revenue and calculate their Month-over-Month (MoM) growth between 2016 and 2018
+* Sales: Identify the top 5 product categories by total revenue and analyze monthly revenue trends from 2016 to 2018 to understand how category performance changes over time
 * Logistics: Determine the average lead time in days for each Brazilian state and identify regions where the average exceeds the estimated delivery date
-* Satisfaction: Quantify the correlation coefficient between shipping delays (Actual vs. Estimated) and average review scores (1-5)
-* Strategy: Identify sellers in the top 10% by sales volume and map the geographic density of customers to find unserved high-demand regions
+* Satisfaction: What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and average review scores (1-5)
+* Strategy: Identify sellers in the top 10% by sales volume and compare seller concentration with customer distribution by state to highlight regions where demand is high but seller presence is relatively low
 
 **Develop A SOW (Scope of Work)**:
 * SOW is created in order to give stakeholders a clear outline of the project which includes: project overview, scope, out-of-scope, project deliverables and files, key project milestones, and an estimated timeline for each milestone and project completion. Link to SOW PDF: "add link"
