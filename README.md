@@ -140,19 +140,21 @@ The Approach:
 * **Seller vs Customer Distribution Analysis:**
 * A geographic comparison was conducted in Power BI to evaluate seller concentration against customer distribution by state. This highlighted regions with high demand but relatively low seller presence, indicating potential market expansion opportunities
 
-High-Performing Sellers SQL View:
+Evidence:
+* High-Performing Sellers (Top 10%):
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/f1554a3611e1cb3846d51c578ec1c101e385c40b/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/seller_performance_top_10%25.png)
 
-* Top Products SQL Analsysis:
+* Top Product Categories (Top 5 Revenue Analysis):
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/bdfb749c96e8c223c14a61452bcb5adea9cb3014/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/top_5_prodcut_categories_picture.png)
 
-* Top Product KPI Power BI:
+* Top Product KPI (DAX):
 *  [image alt](put dax pic in here)
 
 
 Logistics & Customer Experience
 ---
-* **Data Preparation using DML transformations:**
+The Approach:
+* **Data Preparation Using DML transformations:**
 * Additional calculated columns were created to support logistics analysis, including Seller Processing Days, Estimated Delivery Days, Days Delayed, and Lead Time Days. A Shipping Status field was also created using a CASE statement to classify orders into On-Time and Delayed categories
 * **State-Level Logistics Performance Analysis (Power BI):**
 * Average lead time and estimated delivery time were analyzed across Brazilian states to assess regional logistics efficiency. Visual comparisons were used to identify whether any states exceeded estimated delivery thresholds (none exceeded on average), highlighting consistent delivery performance across regions
@@ -160,6 +162,19 @@ Logistics & Customer Experience
 * Shipping delays were analyzed against customer review scores (1–5) to evaluate the impact of logistics performance on satisfaction. This helped assess whether delays correlate with reduced customer sentiment and identify thresholds where satisfaction begins to decline
 * **Root Cause Exploration of Customer Dissatisfaction:**
 * Review scores were segmented against delivery performance metrics to explore potential drivers of dissatisfaction. This analysis focused on identifying whether shipping delays were a primary factor affecting customer sentiment or if other variables contributed
+
+* Data Preperation (CASE Statements & Calculated Columns):
+* ![image alt]()
+
+Evidence:
+* State-Level Logistics Performance
+* ![image alt]()
+* Delivery Delay vs Customer Satisfaction
+* ![image alt]()
+* Customer Rating Distribution by Shipping Status
+* ![image alt]()
+* Seller vs Customer Distribution by State
+* ![image alt]()
 
 
 
