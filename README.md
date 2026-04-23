@@ -31,10 +31,10 @@ To identify core business needs, I developed SMART (Specific, Measurable, Achiev
 
 ### ASK Phase
 ---
-The Ask Phase establishes the business context for the project by defining the core objectives, identifying key stakeholders, and framing technical questions into actionable SMART goals
+The Ask Phase establishes the business context by defining core objectives, identifying key stakeholders, and framing technical questions into actionable SMART goals
 
 **Define the Project Goal:** 
-* The primary goal is to provide a 360-degree view of the Olist Marketplace to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
+* The primary goal is to provide a 360-degree view of the Olist Marketplace to measure performance, increase operational efficiency, improve customer satisfaction, and optimize seller recruitment strategies
 
 **Define the Stakeholders:** 
 * Olist CEO and Logistics Department
@@ -45,26 +45,29 @@ The Ask Phase establishes the business context for the project by defining the c
 * Satisfaction: What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and average review scores (1-5)
 * Strategy: Identify sellers in the top 10% by sales volume and compare seller concentration with customer distribution by state to highlight regions where demand is high but seller presence is relatively low
 
-**Develop A SOW (Scope of Work)**:
-* SOW is created in order to give stakeholders a clear outline of the project which includes: project overview, scope, out-of-scope, project deliverables and files, key project milestones, and an estimated timeline for each milestone and project completion. Link to SOW PDF: "add link"
+**Develop A Scope of Work (SOW):**
+* A SOW was created to provide stakeholders with a clear project roadmap, outlining the project's boundaries, key milestones, and deliverables
+* [image alt](Link to SOW PDF: "add link")
 
-### PERPARE Phase
+### PREPARE Phase
 ---
 The Prepare Phase focuses on data discovery, source validation, and bias assessment to ensure the dataset is fit-for-purpose and technically sound for high-level business analysis
 
 **Data Source:**
-* The analysis utilizes the Olist Brazilian E-Commerce Public Dataset. This dataset contains approximately 100,000 orders made between 2016 and 2018
+* The analysis utilizes the Olist Brazilian E-Commerce Public Dataset, containing approximately 100,000 orders made between 2016 and 2018
 
 **Data Storage & Privacy:**
-* Storage: Raw CSV files were extracted and loaded into Google BigQuery for centralized storage and high-performance SQL processing
-* Privacy: All customer and seller data has been anonymized by the source to protect PII (Personally Identifiable Information)
+* **Storage:** Raw CSV files were extracted and loaded into Google BigQuery for centralized storage and high-performance SQL processing
+* **Privacy:** All customer and seller data has been anonymized by the source to protect PII (Personally Identifiable Information)
 
-**Checking for Data Bias That May Effect Results:**
-* Context: Before ingestion, I performed initial data profiling on the raw CSV metadata and utilized Excel to audit geographic and temporal distributions. This revealed:
-* Georaphic Bias: 40% of orders are from Sao Paulo. National averages are skewed by this high volume, high-infastrucutre region, masking slower delivery times in the North
-* Temporal Bias: Data cuts off in September 2018
-* Resonse Bias: Review scores (1-5) tend to represent "extremes". Customers typically only leave reviews for exceptionally good or very poor experiences
-* Retention Bias: 98.8% of customers are one time buyers which make it difficult to calcualte loyalty trends
+**Checking for Data Bias:**
+
+Before ingestion, I performed data profiling on the raw metadata and used Excel to audit geographic and temporal distributions. This revealed:
+
+* Georaphic Bias: 40% of orders originate from São Paulo. National averages are heavily skewed by this high-infrastructure region, potentially masking slower delivery times in Northern regions
+* Temporal Bias: The dataset concludes in September 2018; performance trends in all years had some months with little to no data
+* Resonse Bias:  Review scores (1-5) tend toward "extremes." Customers typically provide feedback for exceptionally good or very poor experiences, leaving a gap in "neutral" sentiment
+* Retention Bias: 98.8% of customers are one-time buyers, making it difficult to calculate long-term loyalty trends
 
 **Data Organization:**
 * View all 9 raw relational datasets: [Raw Data](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/raw_datasets)
@@ -73,10 +76,10 @@ The Prepare Phase focuses on data discovery, source validation, and bias assessm
 * Excel, SQL, Power BI, PowerPoint, GitHub/Git, VS_Code
 
 **Data ROCCC (Reliable, Original, Comprehensive, Current, Cited):**
-* Reliable: High - The dataset is a real-world public dataset provided by Olist, a major Brazillian e-commerce platform
-* Origional: High - This is first-party data directily from the souce (Olist Store)
-* Comprehensive: High - Includes 100k+ orders, customer locations, payment details, and review scores across 9 tables
-* Current: Medium - Data spans 2016-2018. While its nor real-time, it is exellent for historical analysis and relevant to the stakeholders needs. (check if it acc has all dates needed)
+* Reliable: High - Real-world public dataset provided by Olist, a major Brazilian e-commerce platform
+* Origional: High - First-party data directly from the source
+* Comprehensive: High - Includes 100k+ orders, locations, payments, and reviews across 9 relational tables
+* Current: Data spans 2016–2018. While not real-time, it is excellent for historical analysis.
 * Cited: High - Fully documented and hosted on Kaggle with clear ownership
 
 ### PROCESS Phase (Medallion Architecture)
