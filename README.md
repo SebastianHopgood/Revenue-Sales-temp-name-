@@ -229,6 +229,7 @@ This phase translates insights from the analysis into actionable business recomm
 * Executive_Insights_Presentation file
 
 ## 📂 Project Structure
+```text
 ├── data/
 │   ├── raw/                 # Bronze: Original Olist datasets
 │   └── previews/            # Silver/Gold: Cleaned table screenshots
@@ -243,7 +244,8 @@ This phase translates insights from the analysis into actionable business recomm
 │   └── Olist_360_SOW.pdf    # Scope of Work document
 ├── presentation/
 │   └── Executive_Insights.pdf # Final Insights Presentation
-└── README.md  
+└── README.md                # Project documentation
+```
 
 
 ## ⚠️ Data Limitations & Future Work
