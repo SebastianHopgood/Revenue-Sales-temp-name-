@@ -21,11 +21,11 @@ To identify core business needs, I developed SMART (Specific, Measurable, Achiev
 * **Strategy:** Identify sellers in the top 10% by sales volume and compare seller concentration with customer distribution by state to highlight regions where demand is high but seller presence is relatively low
 
 ## 🛠️ Tools Used
-* Excel: Used for initial data inspection and as a bridge to import raw CSV files into the SQL environment
-* SQL (BigQuery): The backbone of the project. Used for anlysis, DDL, DQL, DML, data cleaning, data warehousing, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
-* Power BI: Used to build an interactive, multi-page dashboard. Leveraged DAX (Data Analysis Expressions) to create custom measures for KPIs, time intelligence, and visualizations
-* GitHub/Git: Utilized for project documentation, version control of code scripts, and hosting the portfolio
-* Vs Code: Joined with Git to control project codes files
+* **Excel:** Used for initial data inspection and as a bridge to import raw CSV files into the SQL environment
+* **SQL (BigQuery):** The backbone of the project. Used for anlysis, DDL, DQL, DML, data cleaning, data warehousing, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
+* **Power BI:** Used to build an interactive, multi-page dashboard. Leveraged DAX (Data Analysis Expressions) to create custom measures for KPIs, time intelligence, and visualizations
+* **GitHub/Git:** Utilized for project documentation, version control of code scripts, and hosting the portfolio
+* **Vs Code:** Joined with Git to control project codes files
 
 ## 🔄 Project Workflow
 
