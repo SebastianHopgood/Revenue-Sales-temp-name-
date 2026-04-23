@@ -157,9 +157,6 @@ Logistics & Customer Experience
 * **Sentiment Correlation Analysis:** Mapped shipping delays against customer review scores (1–5) to identify the specific "Sentiment Collapse" threshold
 * **Logistics KPI Suite:** Developed DAX measures for Delivery Promise Accuracy, Avg. Lead Days, and the Delayed Shipping Penalty (the star-rating drop per day of delay)
 
-* **Data Preperation** (CASE Statements & Calculated Columns):
-* ![image alt]()
-
 **Evidence:**
 * **Data Preperation** (CASE Statements & Calculated Columns):
 * ![image alt]()
