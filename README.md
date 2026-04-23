@@ -25,7 +25,7 @@ To identify core business needs, I developed SMART (Specific, Measurable, Achiev
 * **SQL (BigQuery):** The backbone of the project. Used for anlysis, DDL, DQL, DML, data cleaning, data warehousing, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
 * **Power BI:** Used to build an interactive, multi-page dashboard. Leveraged DAX (Data Analysis Expressions) to create custom measures for KPIs, time intelligence, and visualizations
 * **GitHub/Git:** Utilized for project documentation, version control of code scripts, and hosting the portfolio
-* **Vs Code:** Joined with Git to control project codes files
+* **VS Code:** Joined with Git to control project codes files
 
 ## 🔄 Project Workflow
 
@@ -34,7 +34,7 @@ To identify core business needs, I developed SMART (Specific, Measurable, Achiev
 The Ask Phase establishes the business context for the project by defining the core objectives, identifying key stakeholders, and framing technical questions into actionable SMART goals
 
 **Define the Project Goal:** 
-* The primary goal is to provide a 360-degree view of the Olist Store to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
+* The primary goal is to provide a 360-degree view of the Olist Marketplace to measure performance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy
 
 **Define the Stakeholders:** 
 * Olist CEO and Logistics Department
