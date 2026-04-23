@@ -7,7 +7,7 @@ The goal of the project is to simulate a real business scenario by developing an
 
 ## 🎯 Objectives
 The primary goal is to provide a 360-degree view of the Olist Store to measure preformance, increase operational efficiency, improve customer satisfaction, and develop a selling strategy. Stakeholders requested to know:
-* Sales: Identify the top 5 product categories by total revenue and analyze monthly revenue trends from 2016 to 2018 to understand how category performance changes over time?
+* Sales: Identify the top 5 product categories by order count and analyze monthly revenue trends from 2016 to 2018 to understand how category performance changes over time?
 * Logistics: Determine the average lead time in days for each Brazilian state and identify regions where the average exceeds the estimated delivery date?
 * Satisfaction: What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and average review scores (1-5)?
 * Strategy: Identify sellers in the top 10% by sales volume and compare seller concentration with customer distribution by state to highlight regions where demand is high but seller presence is relatively low?
@@ -208,17 +208,25 @@ This phase summarizes key findings from the analysis to highlight business perfo
 🛒 Sales & Seller Strategy:
 --- 
 Key Findings:
-* d
+* **Core Categories:** The Top 5 product categories (Bed Bath Table, Health Beauty, Computers Accessories, Furniture Decor, and Watches Gifts) dominate the market, accounting for 38.9% of total revenue share
+* **Growth Trends:** Most categories showed consistent growth until a general decline began in April 2018. Health Beauty is the notable exception, maintaining a positive projected growth trajectory
+* **Geographic Opportunity:** Demand is heavily concentrated in five Brazilian states (SP, MG, PR, RJ, SC). However, these high-demand regions are among the lowest in seller distribution (ranking in the top 11/27), indicating a significant opportunity for seller recruitment
+* **Financial KPIs:**
+* Total Revenue: 20.58M
+* Average Order Value: 206.95
+* Total Orders: 114k
 
-Sales & Seller Strategy Dashboard:
+Sales & Seller Strategy Dashboard Preview:
 * [image alt]()
 
 🚚 Logistics & Customer Experience:
 ---
 Key Findings:
-* d
+* **The "Late Delivery" Penalty:** There is a direct correlation between shipping delays and customer dissatisfaction. While the average rating is 4.0 stars, a delay of just 1 day drops the average to 3.68. Sentiment collapses at the 3-day mark (2.58 stars) and hits a floor of 1.5 stars for delays of 6+ days
+* **Operational Efficiency:** The average lead time is 12.5 days, with average seller processing taking 2.4 days. Currently, no state averages exceed their estimated delivery dates, resulting in a 92.1% delivery promise accuracy
+* **Seasonal Bottlenecks:** Late order percentages consistently spike during Q1 and Q4 across all years, identifying these periods as high-risk for customer satisfaction due to logistics strain
 
-Logistics & Customer Experince Dashbaord:
+Logistics & Customer Experience Dashbaord Preview:
 * [image alt]()
 
 ### ACT Phase
