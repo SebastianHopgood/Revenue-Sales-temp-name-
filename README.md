@@ -123,7 +123,7 @@ The Gold Layer represents the final modeled state. I transformed the normalized 
 * **Spatial Optimization:** Aggregated geolocation coordinates to the Zip Prefix level to protect PII and significantly improve map rendering speeds.
 
 **SQL Documentation:**
-SQL Scripts Preview: [All Table SQL Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/03_gold)
+* SQL Scripts Preview: [All Table SQL Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/03_gold)
 * **Example of Code:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/b7f97f79a975b9fc0cc67228064e96175f8691ec/data/order_fact_query_preview.png)
 * **Gold/Analytical Layer Layout:**
