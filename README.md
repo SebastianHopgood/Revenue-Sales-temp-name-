@@ -159,33 +159,13 @@ Logistics & Customer Experience
 
 **Evidence:**
 * **Data Preperation** (CASE Statements & Calculated Columns):
-* ![image alt]()
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/sql%20scripts/anlaysis_scripts/logistics_and_customer_experience/column_data_preperation_preview.png)
 * **State-Level Logistics Performance:**
-* ![image alt](a Power BI table/map showing lead times vs. estimated dates)
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/5b7ea85e8a3c60d0d015d540c4132267bc70bd7f/insights/dashboard_pictures/state_level_logistics_visualization_preview.png)
 * **Delivery Delay vs Customer Satisfaction:**
-* ![image alt](area chart)
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/5b7ea85e8a3c60d0d015d540c4132267bc70bd7f/insights/dashboard_pictures/delivery_delay_vs_customer_satisfaction_visualization_preview.png)
 * **Seller vs Customer Distribution by State:**
-* ![image alt]()
-
-
-Adding Calculated and Grouping Columns:
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/db8ff1754a4beac412fe53424a691d0259e167e0/sql%20scripts/anlaysis_scripts/logistics_and_customer_experience/new_logistics_columns_picture.png)
-
-Logistics Performance:
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/77f175fd5b94e5d920cb37b8570ebe94cf407d9d/sql%20scripts/anlaysis_scripts/logistics_and_customer_experience/logistics_performance_picture.png)
-
-Shipping Customer Statisfaction:
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/77f175fd5b94e5d920cb37b8570ebe94cf407d9d/sql%20scripts/anlaysis_scripts/logistics_and_customer_experience/shipping_satisfaction_impact_picture.png)
-
-Top 5 Product Categories:
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/bdfb749c96e8c223c14a61452bcb5adea9cb3014/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/top_5_prodcut_categories_picture.png)
-* Extra Insights/Context: [Shows Percentage of Product Category Revenue Share](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/main/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/top_5_product_categories_percentage_for_context.sql)
-
-Top 10% Sellers by Order Amount:
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/f1554a3611e1cb3846d51c578ec1c101e385c40b/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/seller_performance_top_10%25.png)
-
-* Market Density:
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/b161567bb9ab160c59be7e52d58e27813f53aa74/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/market_density_picture.png)
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/5b7ea85e8a3c60d0d015d540c4132267bc70bd7f/insights/dashboard_pictures/seller_vs_customer_distribution_by_state_visualization_preview.png)
 
 ### Share Phase
 ---
@@ -203,7 +183,7 @@ Key Findings:
 * Total Orders: 114k
 
 Sales & Seller Strategy Dashboard Preview:
-* [image alt]()
+* [image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/insights/dashboard_pictures/sales_and_seller_strategy_dashboard_preview.png)
 
 🚚 Logistics & Customer Experience:
 ---
@@ -213,7 +193,7 @@ Key Findings:
 * **Seasonal Bottlenecks:** Late order percentages consistently spike during Q1 and Q4 across all years, identifying these periods as high-risk for customer satisfaction due to logistics strain
 
 Logistics & Customer Experience Dashbaord Preview:
-* [image alt]()
+* [image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/insights/dashboard_pictures/logistics_and_customer_experience_dashboard_preview.png)
 
 ### ACT Phase
 ---
