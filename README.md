@@ -47,7 +47,7 @@ The Ask Phase establishes the business context by defining core objectives, iden
 
 **Develop A Scope of Work (SOW):**
 * A SOW was created to provide stakeholders with a clear project roadmap, outlining the project's boundaries, key milestones, and deliverables
-* [View SOW](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/fd4d6646d8c9e48c85b625cb5472204c1d4656db/documentation/olist_360_project_scope_of_work.pdf))
+* [View SOW](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/fd4d6646d8c9e48c85b625cb5472204c1d4656db/documentation/olist_360_project_scope_of_work.pdf)
 
 ### PREPARE Phase
 ---
