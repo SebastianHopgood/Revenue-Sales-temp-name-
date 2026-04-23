@@ -85,7 +85,7 @@ Before ingestion, I performed data profiling on the raw metadata and used Excel 
 ### PROCESS Phase (Medallion Architecture)
 ---
 
-**Bronze (Raw):**
+🥉 **Bronze (Raw):**
 ---
 The Bronze Layer serves as the landing zone for raw data, ensuring a permanent record of the original source files and preserving data lineage for auditing
 * Initial data profiling and quality audit using Microsoft Excel to remove unnecessary columns, fix headers with proper names and snake casing, and removing broken fromatting to ensure a successful data load. Columns that were removed were: review_comment_title and review comment message
