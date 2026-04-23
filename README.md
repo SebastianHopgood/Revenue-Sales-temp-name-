@@ -234,12 +234,14 @@ Logistics & Customer Experience Dashbaord Preview:
 This phase translates insights from the analysis into actionable business recommendations. It outlines what the business should do next to improve performance in areas such as sales, logistics, and customer experience, based on the patterns and issues identified in the data.
 
 🛒 Sales & Seller Strategy — Actions
-* Action 1: 
-* Action 2:
+* **Regional Seller Acquisition:** Launch a targeted recruitment campaign for sellers in SP, MG, PR, RJ, and SC. By increasing seller density in these high-demand zones, Olist can reduce cross-country shipping distances and improve regional competitiveness
+* **Category-Specific Incentives:** Since Health & Beauty is the primary growth driver, Olist should offer lower commission rates or "featured placement" for new sellers in this category to capitalize on the upward trend
+* ** High-Volume Seller Support:** Provide dedicated account management or premium tools for the Top 10% of sellers to ensure the core 62.4% of revenue (from top 10 categories) remains stable
 
 🚚 Logistics & Customer Experience — Actions
-* Action 1:
-* Action 2:
+* **Automated Delay Interventions:** Implement an automated "Early Warning System" that triggers at 48 hours of seller processing time. This gives Olist a 24-hour window to nudge sellers before hitting the 3-day sentiment collapse threshold
+* **Predictive Delivery Windows:** Adjust the "Estimated Delivery Date" algorithm to be more conservative during Q1 and Q4. By proactively extending the promised date during peak seasons, Olist protects the 92.1% accuracy rate and prevents the 1.5-star "late penalty"
+* **Seller Performance Tiering:** Incorporate the 1.5-star "late penalty" data into seller KPIs. Sellers who consistently exceed the 12.5-day average lead time should receive lower search rankings to protect the overall marketplace reputation
 
 📊 Data Storytelling Presentation
 * A summary of key insights and recommendations from the analysis
