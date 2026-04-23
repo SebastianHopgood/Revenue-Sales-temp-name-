@@ -111,6 +111,7 @@ The Silver Layer focuses on data quality and standardization, transforming raw f
 🥇 **Gold (Curated/Analytical Layer):**
 ---
 The Gold Layer represents the final modeled state. I transformed the normalized staging data into a Star Schema to optimize analytical performance and business reporting
+
 **The Star Schema:**
 * Fact Table: orders_fact (Integrated from: orders, order_items, order_payments, order_reviews)
 * Dimension Tables: dim_customers, dim_sellers, dim_date, dim_geolocation, dim_products (Joined with category translations)
