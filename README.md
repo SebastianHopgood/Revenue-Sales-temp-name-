@@ -173,7 +173,7 @@ This phase summarizes key findings from the analysis to highlight business perfo
 
 🛒 Sales & Seller Strategy:
 --- 
-Key Findings:
+**Key Findings:**
 * **Core Categories:** The Top 5 product categories (Bed Bath Table, Health Beauty, Computers Accessories, Furniture Decor, and Watches Gifts) dominate the market, accounting for 38.9% of total revenue share
 * **Growth Trends:** Most categories showed consistent growth until a general decline began in April 2018. Health Beauty is the notable exception, maintaining a positive projected growth trajectory
 * **Geographic Opportunity:** Demand is heavily concentrated in five Brazilian states (SP, MG, PR, RJ, SC). However, these high-demand regions are among the lowest in seller distribution (ranking in the top 11/27), indicating a significant opportunity for seller recruitment
@@ -182,17 +182,17 @@ Key Findings:
 * Average Order Value: 206.95
 * Total Orders: 114k
 
-Sales & Seller Strategy Dashboard Preview:
+**Sales & Seller Strategy Dashboard Preview:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/insights/dashboard_pictures/sales_and_seller_strategy_dashboard_preview.png)
 
 🚚 Logistics & Customer Experience:
 ---
-Key Findings:
+**Key Findings:**
 * **The "Late Delivery" Penalty:** There is a direct correlation between shipping delays and customer dissatisfaction. While the average rating is 4.0 stars, a delay of just 1 day drops the average to 3.68. Sentiment collapses at the 3-day mark (2.58 stars) and hits a floor of 1.5 stars for delays of 6+ days
 * **Operational Efficiency:** The average lead time is 12.5 days, with average seller processing taking 2.4 days. Currently, no state averages exceed their estimated delivery dates, resulting in a 92.1% delivery promise accuracy
 * **Seasonal Bottlenecks:** Late order percentages consistently spike during Q1 and Q4 across all years, identifying these periods as high-risk for customer satisfaction due to logistics strain
 
-Logistics & Customer Experience Dashbaord Preview:
+**Logistics & Customer Experience Dashbaord Preview:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/insights/dashboard_pictures/logistics_and_customer_experience_dashboard_preview.png)
 
 ### ACT Phase
