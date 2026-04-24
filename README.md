@@ -106,7 +106,7 @@ The Silver Layer focuses on data quality and standardization, transforming raw f
 * **Validation:** Verified data consistency and referential integrity pre- and post-ingestion to ensure reliability for downstream reporting.
 * **Scripts:**
 * View SQL Cleaning Scripts: [View All SQL Cleaning Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/02_silver)
-* View Data Previews: [View All Cleanned Data Previews](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/cleaned_data_previews)
+* View Data Previews: [View All Cleanned Data](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/cleaned_data_previews)
 * **Example of Code:** ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/c1b512c2cc032e9508f922e1ff9b18edf6bd15e6/data/SQL_query_staged_orders_picture.png)
 * **Silver/Staging Data Layout:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/707e180cd0e5e59e27f7d6d5dd2df22e8d6f9cda/data/BigQuery_staging_dataset_layout.png)
@@ -139,7 +139,7 @@ The Analyze phase focused on exploring the Olist Marketplace’s performance by 
 * **Revenue Concentration Analysis:** Quantified the contribution of the top 5 vs top 10 product categories by revenue, highlighting how niche segments drive the majority of platform revenue
 * **Time Intelligence Implementation:** Integrated a custom date table in Power BI to track monthly revenue cycles (2016–2018) and identify growth outliers like Health & Beauty
 * **Geographic Density Mapping:** Conducted a spatial comparison of seller concentration vs. customer demand by state to pinpoint market expansion opportunities
-* **DAX Measure Development** Created custom measures for Total Revenue, AOV, Order Count, and Category Revenue Share
+* **DAX Measure Development:** Created custom measures for Total Revenue, AOV, Order Count, and Category Revenue Share
 
 **Evidence:**
 * **High-Performing Sellers (Top 10%):**
@@ -157,7 +157,7 @@ Logistics & Customer Experience
 * **Logistics KPI Suite:** Developed DAX measures for Delivery Promise Accuracy, Avg. Lead Days, and the Delayed Shipping Penalty (the star-rating drop per day of delay)
 
 **Evidence:**
-* **Data Preperation** (CASE Statements & Calculated Columns):
+* **Data Preparation** (CASE Statements & Calculated Columns):
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/sql%20scripts/anlaysis_scripts/logistics_and_customer_experience/column_data_preperation_preview.png)
 * **State-Level Logistics Performance:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/5b7ea85e8a3c60d0d015d540c4132267bc70bd7f/insights/dashboard_pictures/state_level_logistics_visualization_preview.png)
@@ -180,9 +180,9 @@ This phase summarizes key findings from the analysis to highlight business perfo
 * **Growth Trends:** Most categories showed consistent growth until a general decline began in April 2018. Health Beauty is the notable exception, maintaining a positive projected growth trajectory
 * **Geographic Opportunity:** Demand is heavily concentrated in five Brazilian states (SP, MG, PR, RJ, SC). However, these high-demand regions are among the lowest in seller distribution (ranking in the top 11/27), indicating a significant opportunity for seller recruitment
 * **Financial KPIs:**
-* Total Revenue: 20.58M
-* Average Order Value: 206.95
-* Total Orders: 114k
+* Total Revenue: 20.58
+* Average Order Value: 206.9
+* Total Orders: 114,000+
 
 **Sales & Seller Strategy Dashboard Preview:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/263636c54cd337a6e7f6ba09b8d177a080867477/dashboard/dashboard_pictures/sales_and_seller_strategy_dashboard_preview.png)
@@ -195,12 +195,12 @@ This phase summarizes key findings from the analysis to highlight business perfo
 * **Operational Efficiency:** The average lead time is 12.5 days, with average seller processing taking 2.4 days. Currently, no state averages exceed their estimated delivery dates, resulting in a 92.1% delivery promise accuracy
 * **Seasonal Bottlenecks:** Late order percentages consistently spike during Q1 and Q4 across all years, identifying these periods as high-risk for customer satisfaction due to logistics strain
 
-**Logistics & Customer Experience Dashbaord Preview:**
+**Logistics & Customer Experience Dashboard Preview:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/insights/dashboard_pictures/logistics_and_customer_experience_dashboard_preview.png)
 
 🧠 Information Guidance
 ---
-I developed 2 overlays in the interacive dashboard to provide stakholders with knowledge to properly navigate the dashboard
+I developed 2 overlays in the interactive dashboard to provide stakeholders with knowledge to properly navigate the dashboard
 
 **Sales & Seller Strategy Overlay:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/8186ec99c22e7be29bdfdad9ea6144fc220e3ebe/dashboard/dashboard_pictures/sales_and_seller_strategy_overlay.png)
