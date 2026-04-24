@@ -11,7 +11,6 @@ The goal was to simulate a professional data environment by transforming raw dat
 * **Analysis & Visualization:** Performed advanced data analysis across SQL and Power BI, joining tables into a Star Schema to power an interactive dashboard and develop data-driven executive insights
 
 **Quick Dashboard Shortcut (Ctrl/Cmd + Click to open in new tab):**
-https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439
 [Interactive Dashboard Preview](https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439)
 
 ## 🎯 Objectives
