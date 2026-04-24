@@ -32,7 +32,7 @@ To identify core business needs, I developed SMART (Specific, Measurable, Achiev
 
 ## 🔄 Project Workflow
 
-### ASK Phase
+### ❓ ASK Phase
 ---
 The Ask Phase establishes the business context by defining core objectives, identifying key stakeholders, and framing technical questions into actionable SMART goals
 
@@ -52,7 +52,7 @@ The Ask Phase establishes the business context by defining core objectives, iden
 * A SOW was created to provide stakeholders with a clear project roadmap, outlining the project's boundaries, in scope activities, out-of-scope activities, key milestones, and deliverables
 * [View SOW](https://github.com/SebastianHopgood/olist-360-end-to-end-ecommerce-analytics/blob/fd4d6646d8c9e48c85b625cb5472204c1d4656db/documentation/olist_360_project_scope_of_work.pdf)
 
-### PREPARE Phase
+### 📋 PREPARE Phase
 ---
 The Prepare Phase focuses on data discovery, source validation, and bias assessment to ensure the dataset is fit-for-purpose and technically sound for high-level business analysis
 
@@ -85,7 +85,7 @@ Before ingestion, I performed data profiling on the raw metadata and used Excel 
 * Current: Data spans 2016–2018. While not real-time, it is excellent for historical analysis.
 * Cited: High - Fully documented and hosted on Kaggle with clear ownership
 
-### PROCESS Phase (Medallion Architecture)
+### ⚙️ PROCESS Phase (Medallion Architecture)
 ---
 
 🥉 **Bronze (Raw Layer):**
@@ -128,11 +128,11 @@ The Gold Layer represents the final modeled state. I transformed the normalized 
 * **Gold/Analytical Layer Layout:**
 * ![image alt](https://github.com/SebastianHopgood/olist-360-end-to-end-ecommerce-analytics/blob/8641a15f83b5192e12b1f00bed2ff07083f72f1e/data/gold_layer_layout_picture.png)
 
-### Analyze Phase
+### 🔍 Analyze Phase
 ---
 The Analyze phase focused on exploring the Olist Marketplace’s performance by combining SQL-based transformations with Power BI visual analysis. The goal was to evaluate logistics efficiency, seller distribution, and customer satisfaction to identify the key drivers of business performance
 
-**Sales & Seller Strategy**
+🛒 **Sales & Seller Strategy**
 ---
 **Methodology:**
 * **Segmented High-Performing Sellers:** Utilized SQL Window Functions to classify the top 10% of sellers by volume. This identifies high-capacity partners for potential promotional prioritization
@@ -148,7 +148,7 @@ The Analyze phase focused on exploring the Olist Marketplace’s performance by 
 * **Top Product Categories (Top 5 Revenue Analysis):**
 * ![image alt](https://github.com/SebastianHopgood/olist-360-end-to-end-ecommerce-analytics/blob/bdfb749c96e8c223c14a61452bcb5adea9cb3014/sql%20scripts/anlaysis_scripts/sales_and_seller_strategy/top_5_prodcut_categories_picture.png)
 
-Logistics & Customer Experience
+🚚 Logistics & Customer Experience
 ---
 **Methodology:**
 * **Data Preparation Using DML transformations:** Created calculated columns for Seller Processing Time, Lead Time, and Days Delayed. Used CASE statements to categorize orders as "On-Time" vs. "Delayed"
@@ -169,7 +169,7 @@ Logistics & Customer Experience
 **The Star Schema:**
 * ![image alt](https://github.com/SebastianHopgood/olist-360-end-to-end-ecommerce-analytics/blob/68f66371c9b68ef43e574f97741283b1b60e100b/dashboard/star_schema_modeling_picture.png)
 
-### Share Phase
+### 📢 Share Phase
 ---
 This phase summarizes key findings from the analysis to highlight business performance across sales, logistics, and customer experience, focusing on key patterns and relationships in the data
 
@@ -208,7 +208,7 @@ I developed 2 overlays in the interactive dashboard to provide stakeholders with
 **Logistics & Customer Experience Overlay:**
 * ![image alt](https://github.com/SebastianHopgood/olist-360-end-to-end-ecommerce-analytics/blob/633094a9bcbbbad2e8b28c7171c45930a3aef257/dashboard/dashboard_pictures/logistics_and_customer_experience_overlay.png)
 
-### ACT Phase (Key Insights & Recommendations)
+### 💡 ACT Phase (Key Insights & Recommendations)
 ---
 This phase translates insights from the analysis into actionable business recommendations. It outlines what the business should do next to improve performance in areas such as sales, logistics, and customer experience, based on the patterns and issues identified in the data.
 
