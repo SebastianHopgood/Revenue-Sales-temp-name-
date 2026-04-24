@@ -20,12 +20,12 @@ To identify core business needs, I developed SMART (Specific, Measurable, Achiev
 
 * **Sales:** Identify the top 5 product categories by total revenue and analyze monthly revenue trends from 2016 to 2018 to understand how category performance changes over time
 * **Logistics:** Determine the average lead time in days for each Brazilian state and identify regions where the average exceeds the estimated delivery date
-* **Satisfaction:** What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and average review scores (1-5)
+* **Customer Satisfaction:** What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and identify the average review scores (1-5)
 * **Strategy:** Identify sellers in the top 10% by sales volume and compare seller concentration with customer distribution by state to highlight regions where demand is high but seller presence is relatively low
 
 ## 🛠️ Tools Used
 * **Excel:** Used for initial data inspection and as a bridge to import raw CSV files into the SQL environment
-* **SQL (BigQuery):** The backbone of the project. Used for anlysis, DDL, DQL, DML, data cleaning, data warehousing, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
+* **SQL (BigQuery):** The backbone of the project. Used for analysis, DDL, DQL, DML, data cleaning, data warehousing, performing complex multi-table joins, and developing ETL pipelines to create a structured Star Schema
 * **Power BI:** Used to build an interactive, multi-page dashboard. Leveraged DAX (Data Analysis Expressions) to create custom measures for KPIs, time intelligence, and visualizations
 * **GitHub/Git:** Utilized for project documentation, version control of code scripts, and hosting the portfolio
 * **VS Code:** Joined with Git to control project codes files
@@ -45,7 +45,7 @@ The Ask Phase establishes the business context by defining core objectives, iden
 **Ask SMART (Specific, Measurable, Achievable, Relevant, Time-bound) Questions to Identify Business Problems/Needs:**
 * **Sales:** Identify the top 5 product categories by total revenue and analyze monthly revenue trends from 2016 to 2018 to understand how category performance changes over time
 * **Logistics:** Determine the average lead time in days for each Brazilian state and identify regions where the average exceeds the estimated delivery date
-* **Satisfaction:** What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and average review scores (1-5)
+* **Customer Satisfaction:** What is the satisfaction 'penalty' for shipping delays, what is the root cause of dissatisfied customers, at what threshold does customer sentiment collapse, and identify the average review scores (1-5)
 * **Strategy:** Identify sellers in the top 10% by sales volume and compare seller concentration with customer distribution by state to highlight regions where demand is high but seller presence is relatively low
 
 **Develop A Scope of Work (SOW):**
