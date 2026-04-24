@@ -1,4 +1,4 @@
-# 🚀 Olist 360: E-Commerce End-to-End Business Intelligence (EDA)
+# 🚀 Olist 360 End-to-End Ecommerce Analytics
 
 ## 📋 Overview
 This project analyzes a real-world multi-seller marketplace dataset from Olist, a Brazilian e-commerce platform. The analysis covers approximately 100,000 orders from 2016 to 2018 across 9 relational tables. This ecosystem provides a 360-degree view of the interactions between independent sellers, customers, and logistics providers.
