@@ -212,6 +212,11 @@ I developed 2 overlays in the interactive dashboard to provide stakeholders with
 ---
 This phase translates insights from the analysis into actionable business recommendations. It outlines what the business should do next to improve performance in areas such as sales, logistics, and customer experience, based on the patterns and issues identified in the data.
 
+📊 Interactive Dashboard
+* A summary of key insights and recommendations from the analysis
+* **Raw Link (Copy/Paste to open a new tab):**
+* `https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439`
+
 🛒 Sales & Seller Strategy — Actions
 * **Regional Seller Acquisition:** Launch a targeted recruitment campaign for sellers in SP, MG, PR, RJ, and SC. By increasing seller density in these high-demand zones, Olist can reduce cross-country shipping distances and improve regional competitiveness
 * **Category-Specific Incentives:** Since Health & Beauty is the primary growth driver, Olist should offer lower commission rates or "featured placement" for new sellers in this category to capitalize on the upward trend
@@ -221,11 +226,6 @@ This phase translates insights from the analysis into actionable business recomm
 * **Automated Delay Interventions:** Implement an automated "Early Warning System" that triggers at 48 hours of seller processing time. This gives Olist a 24-hour window to nudge sellers before hitting the 3-day sentiment collapse threshold
 * **Predictive Delivery Windows:** Adjust the "Estimated Delivery Date" algorithm to be more conservative during Q1 and Q4. By proactively extending the promised date during peak seasons, Olist protects the 92.1% accuracy rate and prevents the 1.5-star "late penalty"
 * **Seller Performance Tiering:** Incorporate the 1.5-star "late penalty" data into seller KPIs. Sellers who consistently exceed the 12.5-day average lead time should receive lower search rankings to protect the overall marketplace reputation
-
-📊 Interactive Dashboard
-* A summary of key insights and recommendations from the analysis
-* **Raw Link (Copy/Paste to open a new tab):**
-* `https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439`
 
 ## 📦 Deliverables
 
