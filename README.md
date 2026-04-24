@@ -222,6 +222,8 @@ This phase translates insights from the analysis into actionable business recomm
 
 📊 Data Storytelling Presentation
 * A summary of key insights and recommendations from the analysis
+* **Raw Link (Copy/Paste):**
+* https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439
 * [View Live Olist 360 E-Commerce Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439)
 * *(Note: To keep this page open, please **Ctrl + Click** to open the dashboard in a new tab)*
 
