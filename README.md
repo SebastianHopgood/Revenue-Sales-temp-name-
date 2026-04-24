@@ -183,7 +183,7 @@ This phase summarizes key findings from the analysis to highlight business perfo
 * Total Orders: 114k
 
 **Sales & Seller Strategy Dashboard Preview:**
-* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/insights/dashboard_pictures/sales_and_seller_strategy_dashboard_preview.png)
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/263636c54cd337a6e7f6ba09b8d177a080867477/dashboard/dashboard_pictures/sales_and_seller_strategy_dashboard_preview.png)
 
 🚚 Logistics & Customer Experience:
 ---
