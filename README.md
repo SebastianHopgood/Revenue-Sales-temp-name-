@@ -115,10 +115,6 @@ The Silver Layer focuses on data quality and standardization, transforming raw f
 ---
 The Gold Layer represents the final modeled state. I transformed the normalized staging data into a Star Schema to optimize analytical performance and business reporting
 
-**The Star Schema:**
-* Fact Table: orders_fact (Integrated from: orders, order_items, order_payments, order_reviews)
-* Dimension Tables: dim_customers, dim_sellers, dim_date, dim_geolocation, dim_products (Joined with category translations)
-
 **Transformation Logic & Best Practices**:
 * **Revenue Accuracy:** Pre-aggregated payment data to prevent "row-doubling" (fan-out) during joins, ensuring 100% financial accuracy.
 * **Language Translation:** Joined category lookups to provide English labels for global stakeholder readability.
@@ -170,6 +166,9 @@ Logistics & Customer Experience
 * **Seller vs Customer Distribution by State:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/5b7ea85e8a3c60d0d015d540c4132267bc70bd7f/insights/dashboard_pictures/seller_vs_customer_distribution_by_state_visualization_preview.png)
 
+**The Star Schema:**
+* ![image alt]()
+
 ### Share Phase
 ---
 This phase summarizes key findings from the analysis to highlight business performance across sales, logistics, and customer experience, focusing on key patterns and relationships in the data
@@ -206,8 +205,8 @@ I developed 2 overlays in the interacive dashboard to provide stakholders with k
 **Sales & Seller Strategy Overlay:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/8186ec99c22e7be29bdfdad9ea6144fc220e3ebe/dashboard/dashboard_pictures/sales_and_seller_strategy_overlay.png)
 
-**Logistics & Customer Experience:**
-*  ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/633094a9bcbbbad2e8b28c7171c45930a3aef257/dashboard/dashboard_pictures/logistics_and_customer_experience_overlay.png)
+**Logistics & Customer Experience Overlay:**
+* ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/633094a9bcbbbad2e8b28c7171c45930a3aef257/dashboard/dashboard_pictures/logistics_and_customer_experience_overlay.png)
 
 ### ACT Phase
 ---
