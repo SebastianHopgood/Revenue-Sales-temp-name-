@@ -4,7 +4,7 @@
 This project analyzes a real-world multi-seller marketplace dataset from Olist, a Brazilian e-commerce platform. The analysis covers approximately 100,000 orders from 2016 to 2018 across 9 relational tables. This ecosystem provides a 360-degree view of the interactions between independent sellers, customers, and logistics providers.
 The goal was to simulate a professional data environment by transforming raw data into a structured data warehouse, an interactive dashboard, and a strategic executive summary.
 
-Technical Workflow:
+**Technical Workflow:**
 * **Data Integration:** Imported raw CSV files into BigQuery via Excel, establishing the initial data stage
 * **Medallion Architecture:** Structured the project into Bronze (Raw), Silver (Cleaned), and Gold (Analytical) layers to ensure a high-quality data pipeline
 * **Data Engineering:** Used DDL for schema design and DML to engineer new columns (feature engineering) specifically for deep-dive analysis
