@@ -196,6 +196,16 @@ This phase summarizes key findings from the analysis to highlight business perfo
 **Logistics & Customer Experience Dashbaord Preview:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/1a596a2fd4c54dd0dfb1bf8cdac39b3e519a9da9/insights/dashboard_pictures/logistics_and_customer_experience_dashboard_preview.png)
 
+🧠 Information Guidance
+---
+I developed 2 overlays in the interacive dashboard to provide stakholders with knowledge to properly navigate the dashboard
+
+**Sales & Seller Strategy Overlay:**
+* ![image alt]()
+
+**Logistics & Customer Experience:**
+*  ![image alt]()
+
 ### ACT Phase
 ---
 This phase translates insights from the analysis into actionable business recommendations. It outlines what the business should do next to improve performance in areas such as sales, logistics, and customer experience, based on the patterns and issues identified in the data.
