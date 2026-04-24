@@ -106,7 +106,7 @@ The Silver Layer focuses on data quality and standardization, transforming raw f
 * **Validation:** Verified data consistency and referential integrity pre- and post-ingestion to ensure reliability for downstream reporting.
 * **Scripts:**
 * View SQL Cleaning Scripts: [View All SQL Cleaning Scripts](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/sql%20scripts/02_silver)
-* View Data Previews: [View All Cleanned Data](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/cleaned_data_previews)
+* View Data Previews: [View All Cleaned Data](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/main/data/cleaned_data_previews)
 * **Example of Code:** ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/c1b512c2cc032e9508f922e1ff9b18edf6bd15e6/data/SQL_query_staged_orders_picture.png)
 * **Silver/Staging Data Layout:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/707e180cd0e5e59e27f7d6d5dd2df22e8d6f9cda/data/BigQuery_staging_dataset_layout.png)
@@ -208,7 +208,7 @@ I developed 2 overlays in the interactive dashboard to provide stakeholders with
 **Logistics & Customer Experience Overlay:**
 * ![image alt](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/633094a9bcbbbad2e8b28c7171c45930a3aef257/dashboard/dashboard_pictures/logistics_and_customer_experience_overlay.png)
 
-### ACT Phase (Key Insights & Recommnedataions)
+### ACT Phase (Key Insights & Recommendations)
 ---
 This phase translates insights from the analysis into actionable business recommendations. It outlines what the business should do next to improve performance in areas such as sales, logistics, and customer experience, based on the patterns and issues identified in the data.
 
@@ -222,7 +222,7 @@ This phase translates insights from the analysis into actionable business recomm
 * **Predictive Delivery Windows:** Adjust the "Estimated Delivery Date" algorithm to be more conservative during Q1 and Q4. By proactively extending the promised date during peak seasons, Olist protects the 92.1% accuracy rate and prevents the 1.5-star "late penalty"
 * **Seller Performance Tiering:** Incorporate the 1.5-star "late penalty" data into seller KPIs. Sellers who consistently exceed the 12.5-day average lead time should receive lower search rankings to protect the overall marketplace reputation
 
-📊 Data Storytelling Presentation
+📊 Interactive Dashboard
 * A summary of key insights and recommendations from the analysis
 * **Raw Link (Copy/Paste to open a new tab):**
 * `https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439`
@@ -231,21 +231,22 @@ This phase translates insights from the analysis into actionable business recomm
 
 *   **Project Strategy:** [Scope of Work](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/main/documentation/olist_360_project_scope_of_work.pdf)
 *   **Technical Codebase:** [SQL Script Repository](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/tree/726fd764070c33632fa165f6461e3dab6ae9b4ce/sql%20scripts)
-*   **Business Dashboard (Copy/Paste to open a new tab):** `https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439` 
+*   **Interactive Dashboard (Copy/Paste to open a new tab):** `https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439` 
 *   **Executive Insights Presentation:** [Executive Insights Presentation](https://github.com/SebastianHopgood/Revenue-Sales-temp-name-/blob/cb896365c2ac65aa0594fa6927d09d65e4bdef7b/presentation/executive_insights_presentation.pptx)
 
 ## 📂 Project Structure
 ```text
 ├── data/
-│   ├── cleanned_data_previews     # Bronze Layer: Original Olist datasets
-│   └── raw_datasets               # Silver/Gold Layers: Cleaned table screenshots
+│   ├── cleaned_data_previews     # Silver Layer: Cleaned table screenshots
+│   └── raw_datasets               # Bronze Layer: Original Olist datasets
 ├── sql_scripts/
 │   ├── 02_silver/           # Data cleaning & standardization
 │   ├── 03_gold/             # Star Schema modeling (Fact/Dim/Date tables)
-│   └── analysis/            # Strategic queries (.sql) and visual previews (.png)
+│   └── analysis/            # Strategic queries, table views, (.sql) and visual previews (.png)
 ├── dashboard/
 │   ├── dashboard_pictures            # README dashboard visuals
-│   └── interactive_dashboard_link    # Link to the live Power BI report
+│   ├── interactive_dashboard_link    # Link to the live Power BI report
+│   └── star_schema_modeling_picture  # Picture to display Power BI table Model
 ├── documentation/
 │   └── olist_360_project_scope_of_work.pdf    # Professional Scope of Work (SOW)
 ├── presentation/
@@ -254,6 +255,6 @@ This phase translates insights from the analysis into actionable business recomm
 ```
 
 ## ⚠️ Data Limitations & Future Work
-* **Date Gaps :** Data from months January 2016-August 2016 and September 2018-December 2018 is missing. *Future Work: Acquire the remaining 2018 datasets to complete a full 3-year growth study*
-* **Marketplace Profitability:** Without specific commission rates or operating costs, analysis is limited to Total Sales rather than Olist’s actual Net Profit. *Future Work: Integrate Olist’s fee structure to calculate actual platform net profit*
-* **Retention Limits:** 98.8% of users are one-time buyers. *Future Work: Conduct a Cohort Analysis to identify what drives the small percentage of returning "power users"
+* **Date Gaps:** Data from months January 2016 - August 2016 and September 2018-December 2018 is missing. *Future Work: Acquire the remaining 2018 datasets to complete a full 3-year growth study.*
+* **Marketplace Profitability:** Without specific commission rates or operating costs, analysis is limited to Total Sales rather than Olist’s actual Net Profit. *Future Work: Integrate Olist’s fee structure to calculate actual platform net profit*.
+* **Retention Limits:** 98.8% of users are one-time buyers. *Future Work: Conduct a Cohort Analysis to identify what drives the small percentage of returning "power users."
