@@ -223,6 +223,8 @@ This phase translates insights from the analysis into actionable business recomm
 📊 Data Storytelling Presentation
 * A summary of key insights and recommendations from the analysis
 * [Locate Presentation File](https://app.powerbi.com/view?r=eyJrIjoiZTE0ZmRkMjAtMmZjMC00NDlmLThjNjctODE3OThhMTYyYmM0IiwidCI6ImRjZWE2OTZmLTk2YjYtNGJkYS05MmFlLTFjZGE1MWY2NjY2ZiJ9&pageName=809a7c16e2189792b439)
+* <a href="https://powerbi.com" target="_blank">📊 View Live Dashboard (Opens in new tab)</a>
+
 
 ## 💡 Key Insights & Recommnedataions 
 - Bullet points on what key insights and what actions are best to take for the company
